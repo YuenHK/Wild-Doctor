@@ -2,7 +2,7 @@
   "name": "wilddoctor",
   "version": "1.0.0",
   "description": "a Web App Project of Plants Analysis",
-  "main": "js/server.js",
+  "main": "index.html",
   "dependencies": {
     "baidu-aip-sdk": "^2.1.0",
     "firebase": "^4.12.1",
@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node js/server.js",
     "test": "mocha"
   },
   "repository": {
