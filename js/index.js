@@ -58,7 +58,7 @@ function getData(img) {
     document.getElementById("loadingMDI").style.display = "block";
     var http = new XMLHttpRequest();
         $.ajax({
-            url: "https://wilddoctor.herokuapp.com:8081/wd/",
+            url: "https://wilddoctor.herokuapp.com/wd/",
             data: {img : img},
             type: "POST",
             dataType: "json",
