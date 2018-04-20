@@ -1,8 +1,13 @@
 # What is Wild Doctor ?
-Demo website: https://wilddoctorweb.herokuapp.com/index.html<br>
-Api url: https://wilddoctorapi.herokuapp.com/wd/<p>
+Demo Website: https://wilddoctorweb.herokuapp.com/index.html<br>
+REST API Url: https://wilddoctorapi.herokuapp.com/wd/<br>
 a Web App Project of Plants Analysis by <a href="https://projectyuen.com">Anson Wong</a>.<br>
 For more detail of this project, please go to <a href="https://github.com/YuenHK/Will-Doctor">Github</a>.<p>
+  
+# How to use this API?
+Send https request to REST API server.<br>
+Method: Post<br>
+Value: img: Base64 encoded image<p>
 
 # Copyright Statement
 This website is copyright of Anson Wong - Anson Wong (2018). All rights reserved.<br>
