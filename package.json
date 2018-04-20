@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "a Web App Project of Plants Analysis",
   "main": "index.html",
+  "engines": {
+    "node": "6.11.2"
+  },
   "dependencies": {
     "baidu-aip-sdk": "^2.1.0",
     "firebase": "^4.12.1",
