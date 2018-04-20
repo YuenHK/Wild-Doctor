@@ -1,0 +1,78 @@
+#maincenter {
+    margin:0px auto;
+}
+
+.divOut{
+	width:90%;
+	height:90%;
+	position:absolute;
+	top:0; left:0; right:0; bottom:0;
+	margin:auto;
+	text-align:center;
+}
+.divIn{
+    height:90%;
+	width:90%;
+	position:absolute;					
+	top:0; left:0; right:0; bottom:0;
+	margin:auto;						
+}
+
+#uploadImage {
+    display: none;
+}
+
+#img {
+    display: none;
+}
+
+#canvas {
+    display: none;
+}
+
+#video {
+    display: none;
+}
+
+#loadingMDI {
+    display: none;
+	width:100%;
+	position:absolute;
+}
+
+    .strike {
+        display: block;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap; 
+    }
+
+    .strike > span {
+        position: relative;
+        display: inline-block;
+    }
+	
+    .strike > span:before,
+    .strike > span:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 9999px;
+        height: 1px;
+        background: black;
+    }
+
+    .strike > span:before {
+        right: 100%;
+        margin-right: 15px;
+    }
+
+    .strike > span:after {
+        left: 100%;
+        margin-left: 15px;
+    }
+
+#handbg {
+    background-image: url("images/header-bg.jpg");
+    object-fit: cover;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "wilddoctor",
+  "version": "1.0.0",
+  "description": "a Web App Project of Plants Analysis",
+  "main": "js/server.js",
+  "dependencies": {
+    "baidu-aip-sdk": "^2.1.0",
+    "firebase": "^4.12.1",
+    "restify": "^6.3.4",
+    "translation.js": "^0.6.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuenHK/Will-Doctor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuenHK/Will-Doctor/issues"
+  },
+  "homepage": "https://github.com/YuenHK/Will-Doctor#readme"
+}
