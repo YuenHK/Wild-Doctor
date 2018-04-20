@@ -19,7 +19,8 @@ HttpClient.setRequestInterceptor(function(requestOptions) {
     return requestOptions;
 });
 
-server.listen(function(){
+var port_number = server.listen(process.env.PORT || 3000);
+server.listen(port_number,function(){
    console.log('Server Activation');
    
    var returnValue = " ";
